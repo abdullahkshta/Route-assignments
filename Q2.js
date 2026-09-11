@@ -164,9 +164,3 @@ const server = http.createServer((req, res) => {
   }
 });
 server.listen(3001, () => {});
-// console.log(JSON.parse(fs.readFileSync("./dataBase.json", "utf-8")));
-// server.close();
-// const url = "/user/40";
-// console.log();
-const email = "user3@email.com";
-console.log();

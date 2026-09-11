@@ -429,24 +429,3 @@ function createCompressClone(file, newFile) {
 // deleteFile("data.txt");
 //  deleteFile("./data.txt.gz")
 // removedir("data.txt");
-const http = require("node:http");
-
-// 1. إنشاء السيرفر وتجهيز الردود
-const server = http.createServer((req, res) => {
-  // إذا طلب Postman هذا المسار بنوع GET
-  if (req.url === "/test" && req.method === "GET") {
-    res.writeHead(200, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ message: "أهلاً بك! السيرفر يعمل بنجاح ✅" }));
-  }
-
-  // لأي مسار آخر
-  else {
-    res.writeHead(404, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ message: "المسار غير موجود ❌" }));
-  }
-});
-
-// 2. تشغيل السيرفر والاستماع على المنفذ 3000
-server.listen(3000, () => {
-  console.log("🚀 السيرفر شغال الآن على: http://localhost:3000");
-});
