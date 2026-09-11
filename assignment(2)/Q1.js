@@ -428,4 +428,4 @@ function createCompressClone(file, newFile) {
 
 // deleteFile("data.txt");
 //  deleteFile("./data.txt.gz")
-// removedir("data.txt");
+// removedir("data.txt");g
