@@ -1,0 +1,7 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/user/getByName?name=User 2
+method: GET
+queryParams:
+  name: User 2
+order: 4503197635505793

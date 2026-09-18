@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/user/8
+method: PATCH
+body:
+  type: json
+  content: '{"name": "User 21", "age": 20, "email": "user81@email.com"}'
+order: 3404066295173549

@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/user/6
+method: POST
+body:
+  type: json
+  content: '{ "name": "User 11", "age": 20, "email": "user11@email.com" }'
+order: 2613039363132975

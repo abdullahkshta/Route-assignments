@@ -270,7 +270,7 @@ myEmitter.on("start", () => {
 // • Output Example:“User logged in: Ahmed”
 // _______________________________________________________________________________________________________
 const userEmitter = new emitter();
-userEmitter.on("user", (user) => {
+userEmitter.on("login", (user) => {
   console.log(`User logged in: ${user}`);
 });
 // userEmitter.emit("user", "Ahmed");

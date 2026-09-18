@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/user
+method: DELETE
+body:
+  type: json
+  content: '{"id":12}'
+order: 4233671898063222
